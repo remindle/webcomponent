@@ -1,0 +1,23 @@
+{
+  "name": "@remindle/webcomponent",
+  "version": "1.0.0",
+  "description": "Remindle button webcomponent example with lit",
+  "main": "index.js",
+  "repository": "git@github.com:remindle/webcomponent.git",
+  "author": "Leo van Haaren <leo@remindle.io>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite build && vite preview",
+    "pretty": "prettier --write ."
+  },
+  "dependencies": {
+    "lit": "^2.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6",
+    "prettier": "^2.4.1",
+    "vite": "^2.6.13"
+  }
+}
