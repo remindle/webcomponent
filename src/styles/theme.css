@@ -1,0 +1,15 @@
+:root {
+  --white: #FFF;
+  --primary: #F49739;
+  --primary-active: #FFCF2B;
+  --secondary: #FFCF2B;
+  --secondary-active: #F49739;
+
+  --remindle-button-display: 'block';
+  --remindle-button-width: 100%;
+  --remindle-button-min-width: 12rem;
+  --remindle-button-padding-horizontal: 2.4rem;
+  --remindle-button-border-color: red;
+  --remindle-button-background-color: blue;
+  --remindle-button-color: white;
+}

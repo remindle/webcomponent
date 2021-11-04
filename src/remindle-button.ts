@@ -40,7 +40,7 @@ export class RemidleButton extends LitElement {
 
     button {
       border: solid 1px var(--remindle-button-border-color, red);
-      background: solid 1px var(--remindle-button-border-color, red);
+      background: solid 1px var(--remindle-button-bg-color, red);
     }
 
     .remindle-button {

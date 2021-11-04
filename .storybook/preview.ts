@@ -1,4 +1,6 @@
-import { configure } from "@storybook/web-components";
+import '../src/styles/theme.css';
+
+import { addParameters, configure } from '@storybook/web-components';
 
 const req = require.context('../src', true, /\.stories\.(js|ts|mdx)$/);
 
@@ -10,6 +12,13 @@ if (module.hot) {
     window.location.reload();
   });
 }
+
+addParameters({
+  options: {
+    brandTitle: 'Remindle Design System',
+    brandUrl: 'https://github.com/remindle/design-system',
+  },
+});
 
 // export const parameters = {
 //   actions: { argTypesRegex: "^on[A-Z].*" },
