@@ -2,7 +2,7 @@ import { css, html, LitElement } from 'lit';
 import { customElement, property } from 'lit/decorators.js';
 import { classMap } from 'lit/directives/class-map.js';
 
-enum ButtonVariants {
+export enum ButtonVariants {
   PRIMARY = 'primary',
   SECONDARY = 'secondary',
 }

@@ -10,14 +10,25 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite build && vite preview",
-    "pretty": "prettier --write ."
+    "pretty": "prettier --write .",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook",
+    "lint": "lit-analyzer"
   },
   "dependencies": {
     "lit": "^2.0.2"
   },
   "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@storybook/addon-actions": "^6.3.12",
+    "@storybook/addon-essentials": "^6.3.12",
+    "@storybook/addon-links": "^6.3.12",
+    "@storybook/web-components": "^6.3.12",
     "@types/node": "^16.11.6",
+    "babel-loader": "^8.2.3",
+    "lit-analyzer": "^1.2.1",
     "prettier": "^2.4.1",
+    "typescript": "^4.4.4",
     "vite": "^2.6.13"
   }
 }
